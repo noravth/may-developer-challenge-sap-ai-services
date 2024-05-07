@@ -23,7 +23,6 @@ SAP AI Services help you implement custom use cases by providing powerful algori
 This week you will use the UI of the Document Information Extraction service to extract information from your favorite recipe. The UI is great to try out your use case and get a feeling of the capabilities of the service. For productive use cases you would call the APIs or implement a workflow using the Python SDK. Productively, you could then for example implement a workflow that processes documents right out of your mailbox, saves the extracted information in the system and structure you need as well as triggers other necessary workflows.
 For this week’s challenge, use the UI to extract the header fields “recipe name”, “portions” and the line items “quantity” and “ingredient” from your chosen recipe. Therefore, you need to create a custom schema. Make sure the recipe is in one of the supported languages.
 When creating a custom Schema chose the Setup Type auto to use the llm/genAI-based Premium Edition. In the description field provide information for the large language model to understand what you are referring to e.g. “the name of the recipe”.
-
 <img width="468" alt="image" src="https://github.com/noravth/may-developer-challenge-sap-ai-services/assets/29603544/bdb24896-cdcc-4749-91ce-4714d43b6017">
 
 1. Get a free trial account and run DOX booster: https://developers.sap.com/tutorials/cp-aibus-dox-booster-key.html 
@@ -37,11 +36,11 @@ Example Screenshot:
 <img width="468" alt="image" src="https://github.com/noravth/may-developer-challenge-sap-ai-services/assets/29603544/72fd0752-730f-47e5-afb7-891c3e400a6a">
 
 ### Additional Information
-Processing a ©Pokémon Card in 90 seconds with Document Information Extraction powered by generative AI: https://community.sap.com/t5/technology-blogs-by-sap/processing-a-pok%C3%A9mon-card-in-90-seconds-with-document-information/ba-p/13571759
-Be aware of limits that apply in free tier and trial accounts: https://help.sap.com/docs/document-information-extraction/document-information-extraction/free-tier-option-and-trial-account-technical-constraints
-How to improve your results: https://help.sap.com/docs/document-information-extraction/document-information-extraction/best-practices-298a9a0936d5436494c644ec51bbdcea
+[Processing a ©Pokémon Card in 90 seconds with Document Information Extraction powered by generative AI](https://community.sap.com/t5/technology-blogs-by-sap/processing-a-pok%C3%A9mon-card-in-90-seconds-with-document-information/ba-p/13571759)
+Be aware of [limits that apply in free tier and trial accounts](https://help.sap.com/docs/document-information-extraction/document-information-extraction/free-tier-option-and-trial-account-technical-constraints)
+How to [improve your results](https://help.sap.com/docs/document-information-extraction/document-information-extraction/best-practices-298a9a0936d5436494c644ec51bbdcea)
 If you do not want to run the booster for Document Information Extraction make sure to register to the service using the blocks_of_100 service plan and assign the necessary role collections to your user.
-In this “2-min of” video I am describing the technical aspects of the BASE service (without use of LLM) behind the scenes. 
+In [this “2-min of” video](https://youtu.be/w66uwSWGvH0) I am describing the technical aspects of the BASE service (without use of LLM) behind the scenes. 
 
 ## Week 2 Challenge - DOX Python SDK
 Use the Document Information Extraction Python SDK to extract information from the same recipe from week 1 using the custom schema you created last week.
@@ -51,7 +50,7 @@ Use the Document Information Extraction Python SDK to extract information from t
 4.	Send your document from week 1 to the Document Information Extraction instance via the Python code (you can use the default client)
 5.	You will need your Schema ID which you can fine in the URL of the UI when navigated to the schema you want to use.
 <img width="468" alt="image" src="https://github.com/noravth/may-developer-challenge-sap-ai-services/assets/29603544/12480225-6400-4925-8f3f-c08e655d90ec">
-6.	Example code: https://github.com/noravth/may-developer-challenge-sap-ai-services/tree/main 
-7.	Additional information: Check out this example code with more examples: https://github.com/SAP/business-document-processing/blob/main/examples/document_information_extraction_examples/information_extraction_showcase.ipynb
-![image](https://github.com/noravth/may-developer-challenge-sap-ai-services/assets/29603544/198d4a16-8897-4061-9c58-ce468f63b43c)
+6.	[Example code](https://github.com/noravth/may-developer-challenge-sap-ai-services/blob/main/document_information_extraction.py)
+7.	Additional information: Check out [this](https://github.com/SAP/business-document-processing/blob/main/examples/document_information_extraction_examples/information_extraction_showcase.ipynb) example code with more examples
+
 
