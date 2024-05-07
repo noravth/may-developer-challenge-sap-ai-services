@@ -45,7 +45,8 @@ Example Screenshot:
 - In [this “2-min of” video](https://youtu.be/w66uwSWGvH0) I am describing the technical aspects of the BASE service (without use of LLM) behind the scenes. 
 
 ## Week 2 Challenge - DOX Python SDK
-Thank you so much for your participation last week and the great results! I am so happy to see your drive and experimental mindsets!
+Thank you so much for your participation last week and the great results! I am so happy to see your drive and experimental mindsets! I also really love the inspiration I got from all your favorite recipes! I will definitely try them out! And I loved the M-AI Developer Challenge pun comment!
+
 This week we want to use the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) to extract information from the same recipe from week 1 using the custom schema you in the Document Information Extraction UI. With the Python SDK you can implement end-to-end use cases and process documents on a large scale.
 
 1.	Use the Python IDE of your choice, create and activate a virtual environment and install the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) 
