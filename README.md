@@ -38,11 +38,11 @@ Example Screenshot:
 <img width="468" alt="image" src="https://github.com/noravth/may-developer-challenge-sap-ai-services/assets/29603544/72fd0752-730f-47e5-afb7-891c3e400a6a">
 
 ### Additional Information
-[Processing a ©Pokémon Card in 90 seconds with Document Information Extraction powered by generative AI](https://community.sap.com/t5/technology-blogs-by-sap/processing-a-pok%C3%A9mon-card-in-90-seconds-with-document-information/ba-p/13571759)
-Be aware of [limits that apply in free tier and trial accounts](https://help.sap.com/docs/document-information-extraction/document-information-extraction/free-tier-option-and-trial-account-technical-constraints)
-How to [improve your results](https://help.sap.com/docs/document-information-extraction/document-information-extraction/best-practices-298a9a0936d5436494c644ec51bbdcea)
-If you do not want to run the booster for Document Information Extraction make sure to register to the service using the blocks_of_100 service plan and assign the necessary role collections to your user.
-In [this “2-min of” video](https://youtu.be/w66uwSWGvH0) I am describing the technical aspects of the BASE service (without use of LLM) behind the scenes. 
+- [Processing a ©Pokémon Card in 90 seconds with Document Information Extraction powered by generative AI](https://community.sap.com/t5/technology-blogs-by-sap/processing-a-pok%C3%A9mon-card-in-90-seconds-with-document-information/ba-p/13571759)
+- Be aware of [limits that apply in free tier and trial accounts](https://help.sap.com/docs/document-information-extraction/document-information-extraction/free-tier-option-and-trial-account-technical-constraints)
+- How to [improve your results](https://help.sap.com/docs/document-information-extraction/document-information-extraction/best-practices-298a9a0936d5436494c644ec51bbdcea)
+- If you do not want to run the booster for Document Information Extraction make sure to register to the service using the blocks_of_100 service plan and assign the necessary role collections to your user.
+- In [this “2-min of” video](https://youtu.be/w66uwSWGvH0) I am describing the technical aspects of the BASE service (without use of LLM) behind the scenes. 
 
 ## Week 2 Challenge - DOX Python SDK
 Use the Document Information Extraction Python SDK to extract information from the same recipe from week 1 using the custom schema you created last week.
