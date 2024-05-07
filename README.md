@@ -45,8 +45,10 @@ Example Screenshot:
 - In [this “2-min of” video](https://youtu.be/w66uwSWGvH0) I am describing the technical aspects of the BASE service (without use of LLM) behind the scenes. 
 
 ## Week 2 Challenge - DOX Python SDK
-Use the Document Information Extraction Python SDK to extract information from the same recipe from week 1 using the custom schema you created last week.
-1.	Use the Python IDE of your choice, create and activate a virtual environment and install the Document Information Extraction SDK 
+Thank you so much for your participation last week and the great results! I am so happy to see your drive and experimental mindsets!
+This week we want to use the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) to extract information from the same recipe from week 1 using the custom schema you in the Document Information Extraction UI. With the Python SDK you can implement end-to-end use cases and process documents on a large scale.
+
+1.	Use the Python IDE of your choice, create and activate a virtual environment and install the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) 
 2.	Optional: Only needed if you want to use utils to display capabilities and display extraction: Install other dependencies (PyPDF2, fpdf, IPython)
 3.	Get your Document Information Extraction service key from your BTP trial account
 4.	Send your document from week 1 to the Document Information Extraction instance via the Python code (you can use the default client)
@@ -56,5 +58,9 @@ Use the Document Information Extraction Python SDK to extract information from t
 
 7.	[Example code](https://github.com/noravth/may-developer-challenge-sap-ai-services/blob/main/document_information_extraction.py)
 8.	Additional information: Check out [this](https://github.com/SAP/business-document-processing/blob/main/examples/document_information_extraction_examples/information_extraction_showcase.ipynb) example code with more examples
+
+To SUBMIT your result simply reply to this discussion by pasting an image with your code and returned json like this: 
+
+<img width="468" alt="image" src="https://github.com/noravth/may-developer-challenge-sap-ai-services/assets/29603544/0eaa77b5-4d1f-484d-8d36-a72ff757ad1c">
 
 
