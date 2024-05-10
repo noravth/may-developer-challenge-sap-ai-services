@@ -1,0 +1,60 @@
+{
+    "features": [
+      {
+        "label": "Date",
+        "type": "text"
+      },
+      {
+        "label": "TotalVolume",
+        "type": "number"
+      },
+      {
+        "label": "PLU4046",
+        "type": "number"
+      },
+      {
+        "label": "PLU4225",
+        "type": "number"
+      },
+      {
+        "label": "PLU4770",
+        "type": "number"
+      },
+      {
+        "label": "TotalBags",
+        "type": "number"
+      },
+      {
+        "label": "SmallBags",
+        "type": "number"
+      },
+      {
+        "label": "LargeBags",
+        "type": "number"
+      },
+      {
+        "label": "XLargeBags",
+        "type": "number"
+      },
+      {
+        "label": "type",
+        "type": "text"
+      },
+      {
+        "label": "year",
+        "type": "number"
+      },
+      {
+        "label": "region",
+        "type": "text"
+      }
+
+    ],
+    "labels": [
+      {
+        "label": "AveragePrice",
+        "type": "number"
+      }
+    ],
+    "name": "my-dataset-schema"
+  }
