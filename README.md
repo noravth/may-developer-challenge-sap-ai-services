@@ -56,7 +56,7 @@ This week we want to use the [Document Information Extraction Python SDK](https:
 👉 Create a virtual environment using the following command:
 
 ```bash
-python3 -m venv ~/projects/may-developer-challenge-sap-ai-services/env 
+python3 -m venv ~/may-developer-challenge-sap-ai-services/env  --upgrade-deps
 ```
 
 👉 Activate the `venv` environment like this and make sure it is activated:
