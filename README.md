@@ -62,7 +62,7 @@ python3 -m venv ~/projects/may-developer-challenge-sap-ai-services/env
 👉 Activate the `venv` environment like this and make sure it is activated:
 
 ```bash
-python3 -m venv ~/projects/may-developer-challenge-sap-ai-services/env 
+source ~/projects/may-developer-challenge-sap-ai-services/env/bin/activate
 ```
 
 👉 Install the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) using the following `pip install` command.
