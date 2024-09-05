@@ -50,21 +50,9 @@ Thank you so much for your participation last week and the great results! I am s
 This week we want to use the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) to extract information from the same recipe from week 1 using the custom schema you in the Document Information Extraction UI. With the Python SDK you can implement end-to-end use cases and process documents on a large scale.
 
 1. Use the Python IDE of your choice and clone this repository.
-2.	Create and activate a virtual environment and install the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/)
+2.	Create and activate a virtual environment in BAS: Ctrl+Shift+P/CMD+Shift+P -> Python: Create vitural environment
 
 👉 Start a new Terminal.
-
-👉 Create a virtual environment using the following command:
-
-```bash
-python3 -m venv ~/may-developer-challenge-sap-ai-services/env  --upgrade-deps
-```
-
-👉 Activate the `venv` environment like this and make sure it is activated:
-
-```bash
-source ~/may-developer-challenge-sap-ai-services/env/bin/activate
-```
 
 👉 Install the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) using the following `pip install` command.
 
