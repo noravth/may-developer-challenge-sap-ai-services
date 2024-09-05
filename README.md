@@ -49,7 +49,8 @@ Thank you so much for your participation last week and the great results! I am s
 
 This week we want to use the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) to extract information from the same recipe from week 1 using the custom schema you in the Document Information Extraction UI. With the Python SDK you can implement end-to-end use cases and process documents on a large scale.
 
-1.	Use the Python IDE of your choice, create and activate a virtual environment and install the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/)
+1. Use the Python IDE of your choice and clone this repository.
+2.	Create and activate a virtual environment and install the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/)
 
 👉 Start a new Terminal.
 
@@ -62,7 +63,7 @@ python3 -m venv ~/may-developer-challenge-sap-ai-services/env  --upgrade-deps
 👉 Activate the `venv` environment like this and make sure it is activated:
 
 ```bash
-source ~/projects/may-developer-challenge-sap-ai-services/env/bin/activate
+source ~/may-developer-challenge-sap-ai-services/env/bin/activate
 ```
 
 👉 Install the [Document Information Extraction Python SDK](https://pypi.org/project/sap-business-document-processing/) using the following `pip install` command.
@@ -70,10 +71,10 @@ source ~/projects/may-developer-challenge-sap-ai-services/env/bin/activate
 ```bash
 pip install sap-business-document-processing
 ```
-2.	Optional: Only needed if you want to use utils to display capabilities and display extraction: Install other dependencies (PyPDF2, fpdf, IPython)
-3.	Get your Document Information Extraction service key from your BTP trial account
-4.	Send your document from week 1 to the Document Information Extraction instance via the Python code (you can use the default client)
-5.	You will need your Schema ID which you can find in the URL of the UI when navigated to the schema you want to use.
+3.	Optional: Only needed if you want to use utils to display capabilities and display extraction: Install other dependencies (PyPDF2, fpdf, IPython)
+4.	Get your Document Information Extraction service key from your BTP trial account
+5.	Send your document from week 1 to the Document Information Extraction instance via the Python code (you can use the default client)
+6.	You will need your Schema ID which you can find in the URL of the UI when navigated to the schema you want to use.
    
 <img width="468" alt="image" src="https://github.com/noravth/may-developer-challenge-sap-ai-services/assets/29603544/12480225-6400-4925-8f3f-c08e655d90ec">
 
